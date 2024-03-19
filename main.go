@@ -5,9 +5,11 @@ import (
 	"log"
 )
 
+const (
+	tgBotHost = "api.telegram.org"
+)
 func main() {
-	t:= mustToken()
-	//tgClient = telegram.New(tocen)
+	tgClient = telegram.New(mustToken())
 
 	// fetcher = fetcher.New()
 
